@@ -1,0 +1,9 @@
+content/phpexcel/*
+files/*
+backups/*
+!backups/.backuper_ignorefolder
+!files/.backuper_ignorefolder
+versions/builds/*
+versions/downloaded/*
+versions/patches/*
+versions/finalpatches/*

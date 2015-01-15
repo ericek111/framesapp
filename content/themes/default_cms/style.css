@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Verdana;
+  font-size:14px !important;
+}
+#menu a {
+  text-decoration: none;
+  color: #23d4fe
+}
+#menu a:link {
+  color: #23d4fe
+}
+#menu a:hover {
+  color: #0ff
+}
+#menu a:visited {
+  text-decoration: none;
+  color: #23d4fe
+}
+#page {
+  min-width: 1000px;
+}
+#menu {
+  display:block;
+  position: fixed;
+  top:0px;
+  border-bottom: 1px #ccc dashed;
+  padding:5px;
+  width: 100%;
+  z-index: 99999;
+  background-color: #fff;
+
+}
+#menu #userfield {
+  display:block;
+  position: fixed;
+  top:5px;
+  width: 200px;
+  z-index: 99999;
+  background-color: #fff;
+  text-align:right;
+  right:100px;
+}
+a.tab {
+
+}
+a:last-child.tab {
+  border:none;
+}
+a:visited.tab {
+}
+.hiddenpage {
+  display:none;
+}
+#container {
+  margin:10px;
+  font-family: Courier;
+  margin-top: 40px
+}
+#time {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  font-family: Courier;
+  color: black;
+  font-weight: 900;
+  letter-spacing:0px;
+  opacity:0;
+}
+#timeplaceholder {
+  display:block;
+  height:18px;
+  position: fixed;
+  bottom: 10px;
+  width: 100%
+}
+#menu ul.tablist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display:inline;
+}
+#menu ul.tablist li {
+  display:inline;
+  border-right:1px solid #ccf;
+  padding: 2px 10px 0 6px;
+}
+#menu ul.tablist li:last-child {
+  border:none;
+}
+#menu #userfield ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display:inline;
+}
+#menu #userfield ul li {
+  display:inline;
+  border-right:1px solid #ccf;
+  padding: 2px 6px 1px 6px;
+}
+#menu #userfield ul li:last-child {
+  border:none;
+}
+#container {
+  display: none;
+}
+#timeinmenu {
+display: block;
+position: relative;
+float:right;
+margin-right: 15px;
+}

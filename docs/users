@@ -1,0 +1,86 @@
+users.php:
+  Actions:
+  	register:
+  	  Description: Registers new user.
+  	  method: POST,
+  	  Input (array):
+  	  	username: [username]
+  	  	email: [email]
+  	  	password: [non-hashed password]
+  	  	data [json string of userdata]
+  	  Output (integer/string):
+  	  	0: Arguments (username | email | password | data) missing.
+  	  	1: Username or email already exists!
+  	  	2: Invalid e-mail!
+  	  	3: Invalid username!
+  	  	4: User successfully created!
+  	  	5: No rows changed - MySQL query failed.
+        6: E-mail sending failed!
+  	  	Other: mostly error.
+  Functions:
+  	validate_username()
+  	  Description: Validates username.
+  	  Input (string):
+  	  	$username = Username, which are going to be validated.
+  	  Output (string):
+  	  	"invalid username": Username is not valid!
+  	  	Other: Validated username.
+  	validate_email()
+  	  Description: Validated e-mail.
+  	  Input:
+  	  	$email - E-mail, which are going to be validated.
+  	  Output (string):
+  	  	validated e-mail
+  	check_userid_value()
+  	  Description: Checks, if is input value e-mail, user ID or username.
+  	  Input (string):
+  	  	$id = E-mail/password/user ID.
+  	  Output (string):
+  	  	"email": Input value is e-mail.
+  	  	"username": Input valuse is username.
+  	  	"id": Input valuse is user ID.
+  	user_exists()
+  	  Description: Checks, if user exists.
+  	  Input (string):
+  	  	$username / $email / $id = Checks, if user exists using output from check_userid_value().
+  	  Output (boolean):
+  	  	true: User exists.
+  	  	false: User doesn't exists.
+  	get_user()
+  	  Description: Outputs MySQL row from users table with user info.
+  	  Input (string / integer):
+  	  	$username / $email / $id = Username / email / user ID - check_userid_value().
+  	  Output (MySQL result):
+  	  	$result: Result of MySQL query (SELECT * FROM users WHERE check_userid_value($input)=$input)
+  	get_users()
+  	  Description: Returns all users in users table.
+  	  Output (MySQL result):
+  	  	$result = Result of MySQL query (SELECT * FROM users)
+  	getrank()
+  	  Description: Converts numeric level of user rank to string and vice versa.
+  	  Output (string / integer) or input:
+  	  	0: Visitor
+  	  	1: Waiting
+  	  	2: Registered
+  	  	3: Moderator
+  	  	4: Editor
+  	  	5: Redactor
+  	  	6: Master
+  	  	7: Administrator
+  	  	8: Owner
+  	get_userdata()
+  	  Description: Outputs user data from column "data" in user's row in MySQL users table.
+  	  Input: 
+  	  	$username / $email / $id = Username / email / user ID - check_userid_value().
+  	  Output (JSON):
+  	  	$userdata = JSON string:
+  	  	  {
+  	  	  	"firstname": [first name],
+  	  	  	"lastname": [last name],
+  	  	  	"city": [city]
+  	  	  }
+  	  	  Example: {"firstname":"Erik","lastname":"Bro\u010dko","city":"Trnava"}
+  	check_userid_value()
+  	  Description:
+  	  Input:
+  	  Output:

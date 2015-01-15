@@ -1,0 +1,6 @@
+#mertexstatusdiv span.offline {
+	color: red;
+}
+#mertexstatusdiv span.online {
+	color: green;
+}

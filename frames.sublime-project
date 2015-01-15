@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "C:/xampp/htdocs/linux/frames"
+		}
+	],
+	"url_testing":"/localhost/linux/frames",  
+    "url_production":"http://www.project.com"  
+}

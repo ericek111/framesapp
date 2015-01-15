@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /linux/frames/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-p
+RewriteCond %{REQUEST_URI} admin [NC]
+RewriteRule ^(.*)$ index.php?$1 [L]

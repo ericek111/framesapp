@@ -1,0 +1,254 @@
+2014-09-28 15:09:59 [INFO] Test e-mail sent!
+2014-09-28 15:09:46 [DEBUG] Page loaded! [33.282]
+2014-09-28 15:09:49 [DEBUG] Page loaded! [226.475]
+2014-09-28 15:09:51 [DEBUG] Page loaded! [25.578]
+2014-09-28 16:09:00 [DEBUG] Page loaded! [35.54]
+2014-09-28 16:09:13 [DEBUG] Page loaded! [28.311]
+2014-09-28 16:09:43 [DEBUG] Page loaded! [47.022]
+2014-09-28 16:09:55 [DEBUG] Page loaded! [6.676]
+2014-09-28 16:09:04 [DEBUG] Page loaded! [7.221]
+2014-09-28 16:09:08 [DEBUG] Page loaded! [7.421]
+2014-09-28 16:09:10 [DEBUG] Page loaded! [7.566]
+2014-09-28 16:09:13 [DEBUG] Page loaded! [6.711]
+2014-09-28 16:09:17 [FATAL] There was an error running the query! (1064) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''options' WHERE 'option'='cms_test1')' at line 1
+2014-09-28 16:09:02 [FATAL] There was an error running the query! (1064) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+2014-09-28 16:09:53 [FATAL] There was an error running the query! (1064) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''options' WHERE 'option'='cms_test1')' at line 1
+2014-09-28 16:09:21 [FATAL] There was an error running the query! (1064) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''options' WHERE option=cms_test1)' at line 1
+2014-09-28 16:09:32 [FATAL] There was an error running the query! (1064) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''options' WHERE 'option' = 'cms_test1')' at line 1
+2014-09-28 16:09:15 [FATAL] There was an error running the query! (1064) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''options' WHERE 'option' = 'cms_test1')' at line 1
+2014-09-28 16:09:47 [DEBUG] Page loaded! [101.673]
+2014-09-28 16:09:11 [FATAL] There was an error running the query! (1064) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''options' WHERE 'option' = 'cms_test1')' at line 1
+2014-09-29 12:09:12 [DEBUG] Page loaded! [36.53]
+2014-09-29 12:09:47 [INFO] User ericek111 logging in!
+2014-09-29 12:09:53 [INFO] User ericek111 logging in!
+2014-09-29 12:09:56 [DEBUG] Page loaded! [12.035]
+2014-09-29 12:09:57 [DEBUG] Page loaded! [35.111]
+2014-09-29 12:09:32 [INFO] User ericek111 logging out!
+2014-09-30 18:09:12 [INFO] GET dump:[]
+2014-09-30 18:09:12 [INFO] POST dump:{"remote_password":"vcsdCVH4Lp","remote_name":"none","remote_email":"unknown","remote_protectionnumber":"13162708","remote_serialnumber":"121gs-26sgA-GH566-44GSS-SG55Ld"}
+2014-10-01 07:10:09 [DEBUG] Page loaded! [714.526]
+2014-10-01 15:10:00 [DEBUG] Page loaded! [19.397]
+2014-10-01 20:10:05 [DEBUG] Page loaded! [312.566]
+2014-10-02 08:10:43 [DEBUG] Page loaded! [141.066]
+2014-10-02 08:10:13 [INFO] User ericek111 logging in!
+2014-10-02 08:10:18 [DEBUG] Page loaded! [18.146]
+2014-10-02 08:10:21 [DEBUG] Page loaded! [79.999]
+2014-10-02 08:10:18 [DEBUG] Page loaded! [17.986]
+2014-10-02 08:10:30 [DEBUG] Page loaded! [15.991]
+2014-10-02 09:10:37 [DEBUG] Page loaded! [14.364]
+2014-10-02 09:10:50 [DEBUG] Page loaded! [13.557]
+2014-10-02 09:10:50 [DEBUG] Page loaded! [37.063]
+2014-10-02 09:10:53 [DEBUG] Page loaded! [12.945]
+2014-10-02 09:10:15 [INFO] User ericek111 logging out!
+2014-10-02 09:10:16 [INFO] User  logging out!
+2014-10-02 09:10:19 [INFO] User  logging out!
+2014-10-03 18:10:42 [DEBUG] Page loaded! [103.109]
+2014-10-03 18:10:42 [DEBUG] Page loaded! [203.163]
+2014-10-03 18:10:35 [DEBUG] Page loaded! [242.165]
+2014-10-03 18:10:35 [DEBUG] Page loaded! [53.2]
+2014-10-03 18:10:39 [DEBUG] Page loaded! [20.159]
+2014-10-03 18:10:48 [DEBUG] Page loaded! [20.815]
+2014-10-03 18:10:59 [DEBUG] Page loaded! [21.281]
+2014-10-03 18:10:52 [DEBUG] Page loaded! [118.698]
+2014-10-03 18:10:52 [DEBUG] Page loaded! [349.767]
+2014-10-03 18:10:54 [DEBUG] Page loaded! [12.479]
+2014-10-03 18:10:10 [DEBUG] Page loaded! [12.451]
+2014-10-03 18:10:10 [DEBUG] Page loaded! [20.979]
+2014-10-03 18:10:12 [DEBUG] Page loaded! [20.746]
+2014-10-03 18:10:40 [DEBUG] Page loaded! [41.26]
+2014-10-03 18:10:56 [INFO] User ericek111 logging in!
+2014-10-03 18:10:59 [DEBUG] Page loaded! [13.268]
+2014-10-03 18:10:30 [DEBUG] Page loaded! [537.001]
+2014-10-03 18:10:43 [DEBUG] Page loaded! [21.194]
+2014-10-03 18:10:03 [DEBUG] Page loaded! [13.778]
+2014-10-03 18:10:32 [DEBUG] Page loaded! [14.341]
+2014-10-03 18:10:46 [DEBUG] Page loaded! [13.211]
+2014-10-03 18:10:19 [DEBUG] Page loaded! [22.923]
+2014-10-03 18:10:34 [DEBUG] Page loaded! [474.317]
+2014-10-03 18:10:27 [DEBUG] Page loaded! [23.362]
+2014-10-03 18:10:56 [DEBUG] Page loaded! [21.015]
+2014-10-03 18:10:09 [DEBUG] Page loaded! [20.531]
+2014-10-03 18:10:24 [DEBUG] Page loaded! [20.08]
+2014-10-03 18:10:05 [DEBUG] Page loaded! [13.371]
+2014-10-03 18:10:53 [DEBUG] Page loaded! [18.491]
+2014-10-03 18:10:33 [DEBUG] Page loaded! [22.526]
+2014-10-03 19:10:36 [DEBUG] Page loaded! [14.66]
+2014-10-03 19:10:06 [DEBUG] Page loaded! [20.444]
+2014-10-03 19:10:28 [DEBUG] Page loaded! [11.901]
+2014-10-03 19:10:11 [DEBUG] Page loaded! [18.949]
+2014-10-03 19:10:23 [DEBUG] Page loaded! [16.937]
+2014-10-03 19:10:15 [DEBUG] Page loaded! [20.536]
+2014-10-03 19:10:05 [DEBUG] Page loaded! [14.042]
+2014-10-03 19:10:08 [DEBUG] Page loaded! [21.568]
+2014-10-03 19:10:21 [DEBUG] Page loaded! [15.305]
+2014-10-03 19:10:21 [DEBUG] Page loaded! [25.085]
+2014-10-03 19:10:12 [DEBUG] Page loaded! [44.83]
+2014-10-03 19:10:26 [DEBUG] Page loaded! [14.062]
+2014-10-03 19:10:28 [DEBUG] Page loaded! [392.428]
+2014-10-03 19:10:33 [DEBUG] Page loaded! [26.048]
+2014-10-03 19:10:32 [DEBUG] Page loaded! [12.385]
+2014-10-03 22:10:51 [DEBUG] Page loaded! [17.165]
+2014-10-03 22:10:55 [DEBUG] Page loaded! [12.651]
+2014-10-03 22:10:05 [DEBUG] Page loaded! [47.574]
+2014-10-03 22:10:09 [DEBUG] Page loaded! [91.022]
+2014-10-03 22:10:11 [DEBUG] Page loaded! [15.789]
+2014-10-03 22:10:12 [DEBUG] Page loaded! [20.445]
+2014-10-04 00:10:19 [DEBUG] Page loaded! [18.833]
+2014-10-04 00:10:30 [FATAL] There was an error running the query! (1064) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''options' WHERE 'option' = 'cms_test1')' at line 1
+2014-10-04 00:10:37 [FATAL] There was an error running the query! (1064) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'option, value) VALUES ('cms_test1', '\"value1\"'')' at line 1
+2014-10-04 00:10:42 [FATAL] There was an error running the query! (1146) Table 'lixko.posts' doesn't exist
+2014-10-04 00:10:12 [FATAL] There was an error running the query! (1054) Unknown column 'category' in 'field list'
+2014-10-04 00:10:15 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:15! 2
+2014-10-04 00:10:15 [DEBUG] Page loaded! [110.123]
+2014-10-04 00:10:36 [FATAL] There was an error running the query! (1146) Table 'lixko.cms_poststable' doesn't exist
+2014-10-04 00:10:47 [FATAL] There was an error running the query! (1146) Table 'lixko.cms_poststable' doesn't exist
+2014-10-04 00:10:49 [FATAL] There was an error running the query! (1146) Table 'lixko.cms_poststable' doesn't exist
+2014-10-04 00:10:38 [FATAL] There was an error running the query! (1146) Table 'lixko.cms_poststable' doesn't exist
+2014-10-04 00:10:52 [FATAL] There was an error running the query! (1146) Table 'lixko.cms_poststable' doesn't exist
+2014-10-04 00:10:03 [FATAL] There was an error running the query! (1146) Table 'lixko.cms_poststable' doesn't exist
+2014-10-04 00:10:21 [FATAL] There was an error running the query! (1146) Table 'lixko.cms_poststable' doesn't exist
+2014-10-04 00:10:27 [DEBUG] Page loaded! [64.68]
+2014-10-04 00:10:19 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:19! 2
+2014-10-04 00:10:19 [DEBUG] Page loaded! [148.847]
+2014-10-04 00:10:20 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:20! 2
+2014-10-04 00:10:20 [DEBUG] Page loaded! [95.459]
+2014-10-04 00:10:29 [DEBUG] Page loaded! [17.669]
+2014-10-04 00:10:53 [DEBUG] Page loaded! [18.01]
+2014-10-04 00:10:56 [FATAL] There was an error running the query! (1054) Unknown column 'cms' in 'where clause'
+2014-10-04 00:10:44 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:44! 2
+2014-10-04 00:10:44 [DEBUG] Page loaded! [106.037]
+2014-10-04 00:10:47 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:47! 2
+2014-10-04 00:10:47 [DEBUG] Page loaded! [113.347]
+2014-10-04 00:10:48 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:48! 2
+2014-10-04 00:10:48 [DEBUG] Page loaded! [124.997]
+2014-10-04 00:10:04 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:04! 2
+2014-10-04 00:10:04 [DEBUG] Page loaded! [192.587]
+2014-10-04 00:10:55 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:55! 2
+2014-10-04 00:10:55 [DEBUG] Page loaded! [204.57]
+2014-10-04 00:10:56 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:56! 2
+2014-10-04 00:10:56 [DEBUG] Page loaded! [96.685]
+2014-10-04 00:10:57 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:57! 2
+2014-10-04 00:10:57 [DEBUG] Page loaded! [128.316]
+2014-10-04 00:10:02 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:02! 2
+2014-10-04 00:10:02 [DEBUG] Page loaded! [138.473]
+2014-10-04 00:10:55 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:55! 2
+2014-10-04 00:10:55 [DEBUG] Page loaded! [139.171]
+2014-10-04 00:10:56 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:56! 2
+2014-10-04 00:10:56 [DEBUG] Page loaded! [135.287]
+2014-10-04 00:10:24 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:24! 2
+2014-10-04 00:10:24 [DEBUG] Page loaded! [151.357]
+2014-10-04 00:10:25 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:25! 2
+2014-10-04 00:10:25 [DEBUG] Page loaded! [262.987]
+2014-10-04 00:10:32 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:32! 2
+2014-10-04 00:10:32 [DEBUG] Page loaded! [118.353]
+2014-10-04 00:10:47 [DEBUG] Page loaded! [18.415]
+2014-10-04 00:10:55 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:55! 2
+2014-10-04 00:10:55 [DEBUG] Page loaded! [185.943]
+2014-10-04 00:10:56 [INFO] New post (CMS text #1) by ericek111created at 2014-10-04 00:56! 2
+2014-10-04 00:10:56 [DEBUG] Page loaded! [80.555]
+2014-10-04 00:10:58 [DEBUG] Page loaded! [15.794]
+2014-10-04 00:10:13 [DEBUG] Page loaded! [30.711]
+2014-10-04 00:10:15 [INFO] User ericek111 logging in!
+2014-10-04 00:10:17 [DEBUG] Page loaded! [23.217]
+2014-10-04 00:10:54 [DEBUG] Page loaded! [25.439]
+2014-10-04 00:10:01 [DEBUG] Page loaded! [16.935]
+2014-10-04 00:10:08 [DEBUG] Page loaded! [16.836]
+2014-10-04 13:10:10 [DEBUG] Page loaded! [27.184]
+2014-10-04 13:10:13 [DEBUG] Page loaded! [24.264]
+2014-10-04 13:10:33 [DEBUG] Page loaded! [31.832]
+2014-10-04 13:10:37 [DEBUG] Page loaded! [32.842]
+2014-10-04 13:10:51 [DEBUG] Page loaded! [35.586]
+2014-10-04 13:10:57 [DEBUG] Page loaded! [37.342]
+2014-10-04 13:10:26 [DEBUG] Page loaded! [34.466]
+2014-10-04 13:10:04 [DEBUG] Page loaded! [38.018]
+2014-10-04 13:10:09 [DEBUG] Page loaded! [16.158]
+2014-10-04 13:10:10 [DEBUG] Page loaded! [13.828]
+2014-10-04 13:10:12 [DEBUG] Page loaded! [34.061]
+2014-10-04 13:10:17 [DEBUG] Page loaded! [34.749]
+2014-10-04 13:10:42 [DEBUG] Page loaded! [34.569]
+2014-10-04 13:10:53 [DEBUG] Page loaded! [32.421]
+2014-10-04 13:10:28 [DEBUG] Page loaded! [26.328]
+2014-10-04 13:10:04 [DEBUG] Page loaded! [26.991]
+2014-10-04 13:10:00 [DEBUG] Page loaded! [23.715]
+2014-10-04 13:10:03 [DEBUG] Page loaded! [21.537]
+2014-10-07 07:10:23 [DEBUG] Page loaded! [9414.186]
+2014-10-12 21:10:54 [DEBUG] Page loaded! [296.27]
+2014-10-12 21:10:25 [DEBUG] Page loaded! [401.915]
+2014-10-12 21:10:47 [DEBUG] Page loaded! [379.089]
+2014-10-12 21:10:51 [DEBUG] Page loaded! [613.641]
+2014-11-05 20:11:33 [DEBUG] Page loaded! [619.855]
+2014-11-05 20:11:39 [INFO] User ericek111 logging in!
+2014-11-05 20:11:39 [DEBUG] Page loaded! [8.194]
+2014-11-05 20:11:42 [DEBUG] Page loaded! [69.338]
+2014-11-05 20:11:15 [DEBUG] Page loaded! [89.43]
+2014-11-05 20:11:36 [DEBUG] Page loaded! [26.6]
+2014-11-05 20:11:37 [DEBUG] Page loaded! [17.077]
+2014-11-05 20:11:05 [DEBUG] Page loaded! [23.679]
+2014-11-05 20:11:08 [DEBUG] Page loaded! [23.887]
+2014-11-05 20:11:41 [DEBUG] Page loaded! [189.749]
+2014-11-05 20:11:44 [DEBUG] Page loaded! [23.923]
+2014-11-05 20:11:14 [DEBUG] Page loaded! [24.64]
+2014-11-05 20:11:56 [DEBUG] Page loaded! [27.499]
+2014-11-05 20:11:00 [DEBUG] Page loaded! [24.706]
+2014-11-05 20:11:13 [DEBUG] Page loaded! [12.765]
+2014-11-05 20:11:18 [DEBUG] Page loaded! [8.013]
+2014-11-05 20:11:36 [DEBUG] Page loaded! [24.477]
+2014-11-05 20:11:38 [DEBUG] Page loaded! [70.634]
+2014-11-05 20:11:00 [DEBUG] Page loaded! [24.846]
+2014-11-05 20:11:11 [DEBUG] Page loaded! [17.477]
+2014-11-05 20:11:17 [DEBUG] Page loaded! [7.836]
+2014-11-05 20:11:21 [DEBUG] Page loaded! [23.054]
+2014-11-05 20:11:22 [DEBUG] Page loaded! [7.134]
+2014-11-05 20:11:23 [DEBUG] Page loaded! [24.191]
+2014-11-05 20:11:24 [DEBUG] Page loaded! [8.231]
+2014-11-05 20:11:25 [DEBUG] Page loaded! [23.29]
+2014-11-05 20:11:25 [DEBUG] Page loaded! [7.318]
+2014-11-05 20:11:26 [DEBUG] Page loaded! [23.357]
+2014-11-05 20:11:27 [DEBUG] Page loaded! [8.399]
+2014-11-05 20:11:27 [DEBUG] Page loaded! [38.432]
+2014-11-05 20:11:29 [DEBUG] Page loaded! [8.523]
+2014-11-05 20:11:32 [DEBUG] Page loaded! [23.69]
+2014-11-05 20:11:33 [DEBUG] Page loaded! [8.788]
+2014-11-05 20:11:34 [DEBUG] Page loaded! [55.827]
+2014-11-05 20:11:53 [DEBUG] Page loaded! [24.882]
+2014-11-05 20:11:14 [DEBUG] Page loaded! [24.539]
+2014-11-05 20:11:21 [DEBUG] Page loaded! [28.931]
+2014-11-05 20:11:25 [DEBUG] Page loaded! [15.171]
+2014-11-05 20:11:41 [DEBUG] Page loaded! [8.069]
+2014-11-05 20:11:01 [DEBUG] Page loaded! [11508.216]
+2014-11-05 20:11:21 [DEBUG] Page loaded! [1648.341]
+2014-11-05 20:11:52 [DEBUG] Page loaded! [1307.133]
+2014-11-05 20:11:17 [DEBUG] Page loaded! [23.556]
+2014-11-05 20:11:28 [DEBUG] Page loaded! [1407.19]
+2014-11-05 20:11:04 [DEBUG] Page loaded! [1092.245]
+2014-11-05 20:11:20 [DEBUG] Page loaded! [985.2]
+2014-11-05 20:11:40 [DEBUG] Page loaded! [1090.342]
+2014-11-05 20:11:13 [DEBUG] Page loaded! [931.199]
+2014-11-05 20:11:32 [DEBUG] Page loaded! [1243.267]
+2014-11-05 20:11:51 [DEBUG] Page loaded! [913.356]
+2014-11-05 20:11:19 [DEBUG] Page loaded! [1012.991]
+2014-11-05 20:11:44 [DEBUG] Page loaded! [1023.822]
+2014-11-05 20:11:06 [DEBUG] Page loaded! [961.113]
+2014-11-05 20:11:25 [DEBUG] Page loaded! [913.201]
+2014-11-05 20:11:19 [DEBUG] Page loaded! [9.289]
+2014-11-06 20:11:12 [DEBUG] Page loaded! [113.184]
+2014-11-08 14:11:27 [DEBUG] Page loaded! [364.125]
+2014-11-28 20:11:20 [DEBUG] Page loaded! [388.483]
+2014-11-28 20:11:25 [INFO] User ericek111 logging in!
+2014-11-28 20:11:25 [DEBUG] Page loaded! [39.08]
+2014-11-28 20:11:30 [DEBUG] Page loaded! [49.595]
+2014-11-28 20:11:17 [DEBUG] Page loaded! [14.041]
+2014-11-28 20:11:40 [DEBUG] Page loaded! [11.022]
+2014-11-28 20:11:26 [DEBUG] Page loaded! [8.89]
+2014-11-28 21:11:16 [DEBUG] Page loaded! [25.05]
+2014-11-28 22:11:50 [DEBUG] Page loaded! [247.635]
+2014-11-28 22:11:50 [DEBUG] Page loaded! [39.596]
+2014-11-28 22:11:53 [DEBUG] Page loaded! [27.107]
+2014-11-28 22:11:04 [DEBUG] Page loaded! [34.372]
+2014-11-28 22:11:08 [DEBUG] Page loaded! [8.571]
+2014-11-28 22:11:09 [DEBUG] Page loaded! [33.398]
+2014-11-28 22:11:10 [DEBUG] Page loaded! [25.911]
+2014-11-28 22:11:11 [DEBUG] Page loaded! [19.155]
+2014-11-28 22:11:12 [DEBUG] Page loaded! [11.37]
+2014-11-28 22:11:25 [DEBUG] Page loaded! [21.246]
+2014-11-28 23:11:39 [DEBUG] Page loaded! [19.287]
