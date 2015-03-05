@@ -42,6 +42,7 @@ function backuper_getfiles($folder, $verbose = false, $relpath = false, $ignorin
 						if (!in_array(dirname($file), $ignoredfolders)) {
 							if ($relpath) array_push($filesarr, formatpath(str_replace($source, "", $file)));
 							else array_push($filesarr, $file);
+							array_push($ignoredfolders, dirname($file));
 							if ($verbose) echo "Ignoring file [1]: " . $file . "<br />";
 						}
 					} elseif (file_exists(dirname($file) . DIRECTORY_SEPARATOR . BACKUPER_IGNOREFOLDER)) {
@@ -51,7 +52,7 @@ function backuper_getfiles($folder, $verbose = false, $relpath = false, $ignorin
 							else array_push($filesarr, $file);
 							if ($verbose) echo "Ignoring file [2]: " . $file . "<br />";
 						}
-					} elseif (!arrayvalue_contains($ignoredfolders, $file)) {
+					} elseif (!arrayvalue_contains($ignoredfolders, dirname($file))) {
 						if ($relpath) array_push($filesarr, formatpath(str_replace($source, "", formatpath($file))));
 						else array_push($filesarr, $file);
 					} else {

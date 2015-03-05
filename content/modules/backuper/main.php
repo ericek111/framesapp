@@ -1,5 +1,5 @@
 <?
-require_once("backuper.php");
+require(ABSPATH . "content/modules/backuper/backuper.php");
 require_once("versions.php");
 
 /*

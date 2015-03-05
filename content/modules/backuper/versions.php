@@ -1,4 +1,5 @@
 <?php
+
 define("BACKUPER_VERSIONSPATH", formatpath(ABSPATH . "versions/"));
 define("BACKUPER_BUILDSPATH", formatpath(BACKUPER_VERSIONSPATH . "builds/"));
 define("BACKUPER_PATCHESPATH", formatpath(BACKUPER_VERSIONSPATH . "patches/"));
