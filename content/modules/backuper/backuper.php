@@ -98,11 +98,13 @@ function backuper_getdirs($folder, $verbose = false, $relpath = false) {
 						if ($relpath) array_push($foldersarr, formatpath($save));
 						else array_push($foldersarr, formatpath(ABSPATH . $save));
 					} else {
+						$save = substr($file, strlen($source) + 1);
+						$save = str_replace("\\", "/", $save);
 						array_push($ignoredfolders, str_replace('/', DIRECTORY_SEPARATOR, ABSPATH . $save));
 					}
 				}
 			} else if (is_file($file) === true) {
-				if (!arrayvalue_contains($ignoredfolders, $file)) {
+				if (!arrayvalue_contains($ignoredfolders, dirname($file))) {
 					if (file_exists(dirname($file) . DIRECTORY_SEPARATOR . BACKUPER_IGNOREFOLDER)) {
 						if (!in_array($file, $ignoredfolders)) array_push($ignoredfolders, dirname($file));
 					}

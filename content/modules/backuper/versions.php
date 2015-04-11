@@ -88,7 +88,7 @@ function versions_createpatch($oldbuild, $newbuild, $verbose = false) {
 	foreach ($commonfiles as $file) {
 		$src = formatpath($oldpath . $file);
 		$dest = formatpath($newpath . $file);
-		if (!filesaresame($src, $dest)) {
+		if ((is_dir($file) || is_dir($src)) ? false : !filesaresame($src, $dest)) {
 			if ($verbose) echo "Edited file: " . $file . EOL;
 			array_push($editedfiles, $file);
 		}
@@ -140,6 +140,7 @@ function versions_createpatch($oldbuild, $newbuild, $verbose = false) {
 	}
 	return false;
 }
+
 /**
  * Add version to list
  * @param  int $patch
@@ -147,7 +148,6 @@ function versions_createpatch($oldbuild, $newbuild, $verbose = false) {
  * @param  string $version
  * @return bool
  */
-
 function versions_addversion($patch, $build, $version = "") {
 	$versionarray = array($build => array("patch" => $patch, "build" => $build, "version" => $version));
 	$versionsliststr = "";
