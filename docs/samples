@@ -22,8 +22,6 @@ CREATE TABLE IF NOT EXISTS `veriflinks` (
   PRIMARY KEY `id` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_slovak_ci;
 
-INSERT INTO `veriflinks` (`id`, `hash`, `email`, `created`) VALUES ('', '939285c04ad0e0582850374566fd7ab2', 'eb.skola@gmail.com', , CURRENT_TIMESTAMP);
-
 CREATE TABLE IF NOT EXISTS `files` (
   `id` int NOT NULL AUTO_INCREMENT,
   `hash` varchar(32) NOT NULL,
@@ -33,5 +31,3 @@ CREATE TABLE IF NOT EXISTS `files` (
   `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY `id` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_slovak_ci;
-
-INSERT INTO `veriflinks` (`id`, `hash`, `addr`, `user`, `created`) VALUES ('', '939285c04ad0e0582850374566fd7ab2', 'eb.skola@gmail.com', , CURRENT_TIMESTAMP);
