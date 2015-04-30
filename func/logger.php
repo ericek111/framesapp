@@ -57,7 +57,9 @@ function logtofile($text, $level) {
 						$level = "";
 				}
 				$text = date("Y-m-d H:m:s ") . $level . $text . "\n";
-				file_put_contents(LOGFILE, $text, FILE_APPEND | LOCK_EX);
+				$fh = fopen(LOGFILE, 'a') or die("can't open file");
+				fwrite($fh, $text);
+				fclose($fh);
 		}
 }
 if (isset($_GET["action"])) {
