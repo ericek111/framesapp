@@ -1,6 +1,6 @@
 Options +FollowSymLinks
 RewriteEngine On
-RewriteBase /linux/frames/f
+RewriteBase /frames/f
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-p
 RewriteRule ^(.*)$ viewfile.php?$1 [L]

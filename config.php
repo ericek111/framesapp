@@ -5,7 +5,7 @@ do_action("config_beginloading");
 
 // Installation path (relative to htdocs folder)
 //define("PATH", DIRECTORY_SEPARATOR . "linux" . DIRECTORY_SEPARATOR . "frames" . DIRECTORY_SEPARATOR);
-define("PATH", "/linux/frames/");
+define("PATH", "/frames/");
 
 // Absolute installation path 
 define("ABSPATH", realpath($_SERVER['DOCUMENT_ROOT']) . PATH);
