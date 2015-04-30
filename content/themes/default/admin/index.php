@@ -526,7 +526,7 @@ html {
         <div id="stupidtable" style="border: none">
           <table class="stupidtable">
             <thead>
-              <tr>
+              <tr class="noselect">
                 <th data-sort="int"><span>Date</span></th>
                 <th data-sort="int"><span>Level</span></th>
                 <th data-sort="string-ins"><span>Text</span></th>
