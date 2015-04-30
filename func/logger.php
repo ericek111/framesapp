@@ -57,7 +57,7 @@ function logtofile($text, $level) {
 						$level = "";
 				}
 				$text = date("Y-m-d H:m:s ") . $level . $text . "\n";
-				$fh = fopen(LOGFILE, 'a') or die("can't open file");
+				$fh = fopen(LOGFILE, 'a') or die("Can't open logfile for edit!");
 				fwrite($fh, $text);
 				fclose($fh);
 		}

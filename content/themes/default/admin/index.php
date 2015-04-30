@@ -152,7 +152,6 @@ html {
       table.on("beforetablesort", function (event, data) {
         // data.column - the index of the column sorted after a click
         // data.direction - the sorting direction (either asc or desc)
-        $("#msg").text("Sorting index " + data.column);
         $.cookie("lixko2_stupidtablesorting", data.column, { expires: 14 });
       });
 
@@ -535,7 +534,7 @@ html {
             </thead>
             <tbody>
               <?php
-                $handle = fopen(LOGFILE, "r");
+                @$handle = fopen(LOGFILE, "r");
                 if ($handle) {
                   while (($line = fgets($handle)) !== false) {
                     $date = substr($line, 0, 19);
@@ -581,8 +580,8 @@ html {
                   }
                 } else {
                   echo('<script type="text/javascript"> $.noty.consumeAlert({layout: "topCenter", type: "error", dismissQueue: true});
-                  alert("Failed to load log file!"); </script>'); } 
-                  fclose($handle);
+                  alert("Failed to load log file! It maybe does not exist or you don\'t have permission to read/write there!"); </script>'); } 
+                  @fclose($handle);
                 ?>
             </tbody>
   </table>
